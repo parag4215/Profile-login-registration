@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+      .profile-header{
+        text-align: center;
+        color: brown;
+        font-style: italic;
+    }
+
+    .profile-details{
+        line-height: 1.6;
+    }
+
+    .profile-details strong{
+        display: inline-block;
+        width: fit-content;
+        color: crimson;
+    
+    }
+</style>
+
+<body>
+   <center><h1 style="color:rgb(8, 51, 53)">Welcome to my profile</h1></center>
+<div class="profile-header">
+        <h2>Parag Chavda</h2>
+<b><h3>Java Developer</h3></b>
+</div>
+
+<div class="profile-details">
+<p> <strong>Location: </strong> Nadiad, Gujarat, India</p>
+<p> <strong>Education: </strong> B.Tech (Electrical Engineering) </p>
+<p> <strong>Email address: </strong> paragchavda.18@gmail.com</p>
+<p> <strong>Phone number: </strong> +918401744135</p>
+<p> <strong>Skills: </strong> Java, HTML, CSS, Javascript</p>
+</div>
+
+</body>
+</html>
