@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body style="background-color: rgb(107, 193, 193);">
+
+	<form action="Loginuser" method="post">
+
+	<style>
+label {
+	color: rgb(103, 6, 16);
+	font-size: medium;
+	font-style: oblique;
+}
+
+option {
+	font-style: italic;
+}
+</style>
+
+	<center style="color: brown;">
+		<h1>Login</h1>
+	</center>
+	<br>
+	<b><label style="color: rgb(16, 16, 15);">User Name</label></b>
+	<br>
+	<input type="text" placeholder="Enter user name" name="UID">
+	<br>
+	<br>
+	<b><label>Password</label></b>
+	<br>
+	<input type="password" placeholder="Enter the password" name="PW">
+	<br>
+	<br>
+	<button>
+		<b>Submit</b>
+	</button>
+	<br>
+	<label for="" style="color: brown;">Forget Password?</label>
+	<label style="color: blueviolet;">Click here</label>
+	</form>
+</body>
+</html>
