@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+label{
+color: rgb(103, 6, 16);
+font-size: medium;
+font-style: oblique;
+}
+
+option{
+font-style: italic;
+} 
+</style>
+</head>
+
+<body style="background-color:rgb(131, 202, 202);">
+
+<center> <h1 style="color: rgb(151, 12, 12);">Registration From</h1></center>
+   
+   <b><hr style="color: rgb(185, 143, 149);"><hr></b>
+    <br>
+
+    <b><label>First Name: </label></b>
+    <br>
+    <input type="text" placeholder="Enter your first name" name="Fname" required>
+    <br><br>
+
+    <b><label>Last Name: </label></b>
+    <br>
+    <input type="text" placeholder="Enter your last name" name="Lname" required>
+    <br><br>
+    <b><label>Email address: </label></b>
+    <br>
+    <input type="email" placeholder="Enter your Email id" name="Email" required>
+    <br><br>
+   <b><label>Mobile number: </label></b>
+   <br>
+    <b><input type="tel" placeholder="Enter your mobile number" name="Mobile_Num" required></b>
+    <br><br>
+    <b><label>DOB (Date of birth): </label></b>
+    <br>
+    <input type="date" placeholder="Enter your DOB" name="DOB">
+    <br><br>
+    <b><label>Gender: </label></b>
+    <br>
+    <input type="radio" name="Gender">Male
+    <input type="radio" name="Gender">Female
+    <br><br>
+    <b><label>Courses: </label></b>
+    <select name="Courses">
+        <br><br>
+        <option>Select the course</option>
+        <option>Java</option>
+        <option>Python</option>
+        <option>C++</option>
+        <option>Software Testing</option>
+    </select>
+    <br><br>
+    <b><label>Languages: </label></b>
+    <br>
+    <input type="checkbox" name="lang">English
+    <input type="checkbox" name="lang">Hindi
+    <input type="checkbox" name="lang">Gujarati
+    <br><br>
+    <b><label>User name: </label></b>
+    <br>
+    <input type="text" placeholder="Enter the user name" name="user_name">
+    <br><br>
+    <b><label>Password: </label></b>
+    <br>
+    <input type="password"   placeholder="Enter the password"  name="PW">
+    <br><br>
+<hr style="color: deeppink;"><hr>
+    <center><b><button type="submit" style="border: 0cm; color: crimson; border-radius: 0cqb;">Submit</button></b></center>
+
+</body>
+</html>
